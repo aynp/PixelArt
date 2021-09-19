@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <header>
+      <h1 class="heading">8-bit draw</h1>
+    </header> -->
+    <main>
+      <div class="options">
+        <div class="colorOptions">
+          <div class="colorCard">
+            <input type="color" name="mainColor" id="colorSelect" />
+            <span>Main Color</span>
+          </div>
+          <div class="bgColorCard">
+            <input
+              type="color"
+              name="bgColor"
+              id="bgColorSelect"
+              value="#ffffff"
+            />
+            <span>Background Color</span>
+          </div>
+        </div>
+
+        <button class="ereaser">Ereaser</button>
+
+        <div class="range">
+          <input
+            type="range"
+            name="gridSize"
+            id="gridSize"
+            value="16"
+            max="32"
+            min="4"
+          />
+          <p class="gridSize">
+            Grid Size - <span class="rangeValue">24</span> *
+            <span class="rangeValue">24</span>
+          </p>
+        </div>
+
+        <button class="gridState">Show Grid</button>
+        <button class="clearGrid">Clear</button>
+      </div>
+
+      <div class="gridWrapper">
+        <div class="gridContainer" draggable="false"></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

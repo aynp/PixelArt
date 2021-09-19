@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.fade {
+  background-color: var(--bg-color) !important;
+  transition: background-color 1.5s ease;
+}
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.options {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.gridWrapper {
+  height: 85vh;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+}
+
+.gridContainer {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  width: 75vh;
+  aspect-ratio: 1/1;
+}
+
+.colorOptions {
+  align-items: center;
+}
+
+.cell {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  user-select: none;
+}
+
+.hideBorders {
+  border: none;
+}
