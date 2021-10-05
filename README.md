@@ -1,6 +1,6 @@
 # PixelArt
 
-First project? 10 day progress?🤔
+First project? 10 day progress?🤔    
 Would improve if i get time😐
 
 Link - [PixelArt](https://aynp.github.io/PixelArt/)
